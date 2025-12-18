@@ -192,10 +192,10 @@ const Navbar = () => {
 
       {/* Main Navbar */}
       <div className="border-b bg-white">
-        <div className="mx-auto flex max-w-7xl xl:max-w-350 items-center justify-between gap-3 px-4 py-5">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-5">
           
           {/* Left Logo */}
-          <Link href="/" className="text-2xl xl:max-w-29.5 font-bold text-blue-600 xl:mr-15">
+          <Link href="/" className="text-2xl font-bold text-blue-600">
             BuyBee
           </Link>
 
@@ -212,11 +212,11 @@ const Navbar = () => {
 
           {/* Right: Icons */}
           <div className="flex items-center gap-4 ml-7.5">
-            <Link href="#" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
+            <Link href="#" className="hidden lg:flex items-center gap-1 text-sm">
               <User className="h-8 w-8" />
               <span className="text-[12px] mt-3">Sign In</span>
             </Link>
-            <Link href="#" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
+            <Link href="#" className="hidden lg:flex items-center gap-1 text-sm">
               <Heart className="h-8 w-8 cursor-pointer" />
               <span className="text-[12px] mt-3">Cart</span>
             </Link>
@@ -244,18 +244,17 @@ const Navbar = () => {
         </div>
       </div>
 
-
       {/*  Bottom Menu */}
-      <div className="border-b bg-white max-w-7xl xl:max-w-388 mx-auto">
-        <div className="flex flex-col lg:flex-row items-start lg:items-center py-3 text-sm font-medium ">
+      <div className="border-b bg-white max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center py-3 text-sm font-medium">
 
-          <div className="w-full lg:w-auto flex justify-center lg:justify-start xl:max-w-57 mb-2 lg:mb-0">
+          <div className="w-full lg:w-auto flex justify-center lg:justify-start mb-2 lg:mb-0">
             <button className="bg-blue-600 hover:bg-blue-700 flex items-center gap-6 pl-7 pr-15 py-4 text-white w-full lg:w-auto justify-center">
               All Categories <IoIosMenu className="w-6 h-6" />
             </button>
           </div>
 
-          <div className="w-full lg:flex-1 xl:max-w-57"></div>
+          <div className="w-full lg:flex-1"></div>
 
           <nav className="flex flex-col lg:flex-row gap-3 lg:gap-10 w-full lg:w-auto">
             <Link href="/" className="text-blue-600 font-medium text-[15px]">Home</Link>
@@ -275,8 +274,8 @@ const Navbar = () => {
             All Categories
           </Button>
 
-          <nav className="flex flex-col gap-3 ">
-            <Link href="/" >Home</Link>
+          <nav className="flex flex-col gap-3">
+            <Link href="/">Home</Link>
             <Link href="/contact">Contact</Link>
             <Link href="/products">Products</Link>
             <Link href="/offers" className="text-pink-500">Hot Offers</Link>

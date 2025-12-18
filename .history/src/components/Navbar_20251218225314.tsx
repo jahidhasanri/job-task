@@ -276,7 +276,7 @@ const Navbar = () => {
           </Button>
 
           <nav className="flex flex-col gap-3 ">
-            <Link href="/" >Home</Link>
+            <Link href="/" className="ml-10">Home</Link>
             <Link href="/contact">Contact</Link>
             <Link href="/products">Products</Link>
             <Link href="/offers" className="text-pink-500">Hot Offers</Link>

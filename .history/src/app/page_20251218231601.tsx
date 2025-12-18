@@ -1,8 +1,7 @@
 import React from 'react';
 import { CategorySidebar } from '../components/CategorySidebar';
 import { Slider } from '../components/Slider';
-import TopCategory from '../components/TopCategory';
-
+import { TopCategory } from '../components/TopCategory';
 
 const HomePage = () => {
   return (

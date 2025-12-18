@@ -1,8 +1,6 @@
 import React from 'react';
 import { CategorySidebar } from '../components/CategorySidebar';
 import { Slider } from '../components/Slider';
-import TopCategory from '../components/TopCategory';
-
 
 const HomePage = () => {
   return (
@@ -13,7 +11,6 @@ const HomePage = () => {
       <Slider></Slider>
 </div>
 </section>
-      <TopCategory></TopCategory>
       
       <h2>this is home page</h2>
     </div>

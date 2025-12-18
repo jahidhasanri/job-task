@@ -1,8 +1,7 @@
 import React from 'react';
 import { CategorySidebar } from '../components/CategorySidebar';
 import { Slider } from '../components/Slider';
-import TopCategory from '../components/TopCategory';
-
+import { TopCategory } from '../components/TopCategory';
 
 const HomePage = () => {
   return (
@@ -11,9 +10,9 @@ const HomePage = () => {
 <div className="flex flex-col lg:flex-row gap-6">
 <CategorySidebar></CategorySidebar>
       <Slider></Slider>
+      <TopCategory></TopCategory>
 </div>
 </section>
-      <TopCategory></TopCategory>
       
       <h2>this is home page</h2>
     </div>
