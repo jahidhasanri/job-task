@@ -2,7 +2,6 @@ import React from 'react';
 import { CategorySidebar } from '../components/CategorySidebar';
 import { Slider } from '../components/Slider';
 import { TopCategory } from '../components/TopCategory';
-import TopElecto from '../components/TopElecto';
 // import BestSellingProducts from '../components/BestSellingProducts';
 
 
@@ -17,7 +16,6 @@ const HomePage = () => {
 </div>
 </section>
       <TopCategory></TopCategory>
-      <TopElecto></TopElecto>
       {/* <BestSellingProducts></BestSellingProducts> */}
       
       <h2>this is home page</h2>

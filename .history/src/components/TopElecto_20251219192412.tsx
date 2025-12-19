@@ -1,0 +1,40 @@
+import { Button } from '@/components/ui/button';
+import React from 'react';
+import { IoMdArrowBack } from 'react-icons/io';
+import { IoArrowForward } from 'react-icons/io5';
+
+const TopElecto = () => {
+    return (
+        <div className='mx-auto xl:max-w-313.5 lg:max-w-full xl:mt-40 px-4 xl:px-0'>
+              <div className="flex items-center justify-between">
+        <div className="xl:max-w-115.75">
+          <h3 className="text-xl xl:text-[32px] font-semibold tracking-[0.05em]">
+            Shop From{" "}
+            <span className="text-blue-600 font-bold xl:text-[36px]">
+              Top Category
+            </span>
+          </h3>
+        </div>
+
+        <div className="flex gap-2">
+          <Button
+            size="icon"
+            className="w-11.5 h-11.5 rounded-full bg-[#f5f5f5]"
+            variant="outline"
+          >
+            <IoMdArrowBack />
+          </Button>
+          <Button
+            size="icon"
+            className="w-11.5 h-11.5 rounded-full bg-[#f5f5f5]"
+            variant="outline"
+          >
+            <IoArrowForward />
+          </Button>
+        </div>
+      </div>
+        </div>
+    );
+};
+
+export default TopElecto;

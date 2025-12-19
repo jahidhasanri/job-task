@@ -51,7 +51,7 @@ export function TopCategory() {
       {/* ---------- Header ---------- */}
       <div className="flex items-center justify-between">
         <div className="xl:max-w-115.75">
-          <h3 className="text-xl xl:text-[35px] font-semibold tracking-[0.04em]">
+          <h3 className="text-xl xl:text-[32px] font-semibold tracking-[0.05em]">
             Shop From{" "}
             <span className="text-blue-600 font-bold xl:text-[36px]">
               Top Category
@@ -77,7 +77,7 @@ export function TopCategory() {
         </div>
       </div>
 
-      <div className="xl:w-113 h-2.75 bg-[#1163CF] mt-4 mb-20" />
+      <div className="xl:w-113.5 h-2.75 bg-[#1163CF] mt-4 mb-20" />
 
       {/* ---------- Categories ---------- */}
       <div

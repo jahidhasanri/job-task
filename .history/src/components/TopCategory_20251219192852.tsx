@@ -77,7 +77,7 @@ export function TopCategory() {
         </div>
       </div>
 
-      <div className="xl:w-113 h-2.75 bg-[#1163CF] mt-4 mb-20" />
+      <div className="xl:w-111 h-2.75 bg-[#1163CF] mt-4 mb-20" />
 
       {/* ---------- Categories ---------- */}
       <div
