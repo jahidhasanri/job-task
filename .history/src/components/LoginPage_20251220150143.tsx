@@ -52,7 +52,7 @@ export default function LoginPage() {
         <div className="md:flex items-center gap-6">
           <Button
             onClick={handleLogin}
-            className="bg-blue-600 rounded-[5px] hover:bg-blue-700 w-full sm:w-35.5 h-12 sm:h-14 xl:h-14 xl:mr-21 mb-2 md:mb-0"
+            className="bg-blue-600 rounded-[5px] hover:bg-blue-700 w-full sm:w-35.5 h-12 sm:h-14 xl:h-14 xl:mr-21"
           >
             Log In
           </Button>

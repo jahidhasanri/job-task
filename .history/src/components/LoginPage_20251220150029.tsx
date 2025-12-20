@@ -49,10 +49,10 @@ export default function LoginPage() {
         />
 
         {/* Button row */}
-        <div className="md:flex items-center gap-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6 xl:gap-0">
           <Button
             onClick={handleLogin}
-            className="bg-blue-600 rounded-[5px] hover:bg-blue-700 w-full sm:w-35.5 h-12 sm:h-14 xl:h-14 xl:mr-21 mb-2 md:mb-0"
+            className="bg-blue-600 rounded-[5px] hover:bg-blue-700 w-full sm:w-35.5 h-12 sm:h-14 xl:h-14 xl:mr-21"
           >
             Log In
           </Button>
