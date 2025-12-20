@@ -6,8 +6,8 @@ export interface Product {
   description?: string;         
   shortDescription?: string;    
   rating: number;
-  reviews: number;
-  stock: number; 
+  reviews?: number;
+  stock?: number; 
   size?: string[]; 
   discountPercentage?: number;
   status?:string;

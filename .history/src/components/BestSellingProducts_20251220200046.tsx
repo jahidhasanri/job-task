@@ -6,7 +6,7 @@ import { products } from "../data/products";
 
 export default function BestSellingProducts() {
   const [showAll, setShowAll] = useState(false);
-  const displayedProducts = products.slice(0, 8)
+  const displayedProducts = products.slice(1, 8)
   return (
     <div className="xl:max-w-292.5 mx-auto xl:pb-15.5">
       {/* Best Selling Products */}

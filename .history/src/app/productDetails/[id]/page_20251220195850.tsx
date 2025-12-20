@@ -259,7 +259,7 @@ export default function ProductDetailPage() {
     return (
       <div
         key={product.id}
-        className="relative flex flex-col rounded-lg xl: "
+        className="relative flex flex-col rounded-lg xl: border"
       >
         {/* Discount Badge */}
         {product.discountPercentage && (
@@ -294,7 +294,7 @@ export default function ProductDetailPage() {
           </div>
 
           <Link
-            href={`/productDetails/${product.id}`}
+            href={`/product/${product.id}`}
             className="h-14 flex items-center justify-center bg-[#0F59B9] text-white rounded-b-lg"
           >
             Add to Cart

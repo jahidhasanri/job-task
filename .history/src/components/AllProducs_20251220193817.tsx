@@ -4,7 +4,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { products } from "../data/products";
+import { productsAll } from "../data/products";
 import { Button } from "@/components/ui/button";
 import { MdOutlineArrowUpward } from "react-icons/md";
 import { CiFilter } from "react-icons/ci";
@@ -14,10 +14,10 @@ export default function AllProducts() {
   const [sort, setSort] = useState<"asc" | "desc" | "review" | "">("");
 
   /* 🔹 filtering + sorting logic */
-  const processedProducts = products.slice(8, 18)
+  const processedProducts = [...productsAll]
     .filter((p) => {
       if (filter === "price") return p.price <= 500;
-      if (filter === "review") return p?.rating >= 4;
+      if (filter === "review") return p.rating >= 4;
       return true;
     })
     .sort((a, b) => {
@@ -33,7 +33,7 @@ export default function AllProducts() {
       {/* Header */}
       <div className="xl:ml-19.25 flex items-center justify-between mb-6">
         <h3 className="text-[36px] font-semibold tracking-[0.03em]">
-         Explore Our Products
+          Best Selling Products
         </h3>
 
         {/* 🔹 Filter & Sort */}
@@ -105,7 +105,7 @@ export default function AllProducts() {
                 </div>
 
                 <Link
-                  href={`/productDetails/${product.id}`}
+                  href={`/product/${product.id}`}
                   className="h-14 flex items-center justify-center bg-[#0F59B9] text-white rounded-b-lg"
                 >
                   Add to Cart
@@ -136,7 +136,7 @@ export default function AllProducts() {
                   <span
                     key={i}
                     className={`${
-  i < Math.round(product?.rating)
+  i < Math.round(product.rating)
     ? "text-orange-400"
     : "text-gray-300"
 } text-lg xl:text-xl`}

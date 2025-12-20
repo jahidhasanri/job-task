@@ -5,9 +5,9 @@ export interface Product {
   image: string;
   description?: string;         
   shortDescription?: string;    
-  rating: number;
-  reviews: number;
-  stock: number; 
+  rating?: number;
+  reviews?: number;
+  stock?: number; 
   size?: string[]; 
   discountPercentage?: number;
   status?:string;
@@ -234,9 +234,13 @@ export const products: Product[] = [
     "Modern Casual Fit",
   ],
 }
-,
+
+];
+
+export const productsAll: Product[] = [
+  
     {
-    id: 9,
+    id: 1,
     name: "ASUS FHD Gaming Laptop",
     price: 960,
     image: "/laptop.png",
@@ -264,7 +268,7 @@ export const products: Product[] = [
     ],
   },
   {
-  id: 10,
+  id: 2,
   name: "IPS LCD Gaming Monitor",
   price: 1160,
   image: "/monitor.png",
@@ -292,7 +296,7 @@ export const products: Product[] = [
 }
 ,
   {
-  id: 11,
+  id: 3,
   name: "HAVIT HV-G92 Gamepad",
   price: 560,
   image: "/gamepad1.png",
@@ -319,7 +323,7 @@ export const products: Product[] = [
 }
 ,
 {
-  id: 12,
+  id: 4,
   name: "AK-900 Wired Keyboard",
   price: 200,
   image: "/keyboard.png",
@@ -345,7 +349,7 @@ export const products: Product[] = [
   ],
 },
    {
-    id: 13,
+    id: 5,
     name: "ASUS FHD Gaming Laptop",
     price: 960,
     image: "/laptop.png",
@@ -373,7 +377,7 @@ export const products: Product[] = [
     ],
   },
   {
-  id: 14,
+  id: 6,
   name: "IPS LCD Gaming Monitor",
   price: 1160,
   image: "/monitor.png",
@@ -401,7 +405,7 @@ export const products: Product[] = [
 }
 ,
   {
-  id: 15,
+  id: 7,
   name: "HAVIT HV-G92 Gamepad",
   price: 560,
   image: "/gamepad1.png",
@@ -428,7 +432,7 @@ export const products: Product[] = [
 }
 ,
 {
-  id: 16,
+  id: 8,
   name: "AK-900 Wired Keyboard",
   price: 200,
   image: "/keyboard.png",

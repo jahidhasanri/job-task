@@ -251,7 +251,7 @@ export default function ProductDetailPage() {
 
         {/* showing 4 products */}
 <div className="grid xl:grid-cols-4 md:grid-cols-2 relative gap-7.5 xl:w-292.5 mx-auto ">
-  {products.slice(8, 12).map((product) => {
+  {productsAll.slice(0, 4).map((product) => {
     const discountedPrice = product.discountPercentage
       ? product.price - (product.price * product.discountPercentage) / 100
       : product.price;
@@ -259,7 +259,7 @@ export default function ProductDetailPage() {
     return (
       <div
         key={product.id}
-        className="relative flex flex-col rounded-lg xl: "
+        className="relative flex flex-col rounded-lg xl: border"
       >
         {/* Discount Badge */}
         {product.discountPercentage && (
@@ -294,7 +294,7 @@ export default function ProductDetailPage() {
           </div>
 
           <Link
-            href={`/productDetails/${product.id}`}
+            href={`/product/${product.id}`}
             className="h-14 flex items-center justify-center bg-[#0F59B9] text-white rounded-b-lg"
           >
             Add to Cart

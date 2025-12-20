@@ -7,7 +7,7 @@ export interface Product {
   shortDescription?: string;    
   rating: number;
   reviews: number;
-  stock: number; 
+  stock?: number; 
   size?: string[]; 
   discountPercentage?: number;
   status?:string;

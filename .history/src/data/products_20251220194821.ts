@@ -5,9 +5,9 @@ export interface Product {
   image: string;
   description?: string;         
   shortDescription?: string;    
-  rating: number;
-  reviews: number;
-  stock: number; 
+  rating?: number;
+  reviews?: number;
+  stock?: number; 
   size?: string[]; 
   discountPercentage?: number;
   status?:string;
@@ -100,31 +100,30 @@ export const products: Product[] = [
 ,
   {
   id: 4,
-  name: "Quilted Satin Jacket",
-  price: 220,
-  image: "/jaket.png",
+  name: "RGB Liquid CPU Cooler",
+  price: 180,
+  image: "/cpu.png",
 
   description:
-    "Stylish quilted satin jacket designed for warmth and modern fashion appeal.",
-  shortDescription: "Lightweight satin jacket with quilted design",
+    "High-performance RGB liquid CPU cooler designed for efficient heat dissipation and silent operation.",
+  shortDescription: "Advanced liquid cooling with RGB lighting",
 
-  rating: 4.7,
-  reviews: 120,
+  rating: 4.6,
+  reviews: 145,
 
-  stock: 20,
-  size: ["S", "M", "L", "XL"],
+  stock: 25,
+  size: ["240mm Radiator", "360mm Radiator"],
 
   status: "New",
 
   keySpecifications: [
-    "Premium Satin Fabric",
-    "Quilted Insulated Design",
-    "Comfortable Inner Lining",
-    "Durable Zipper Closure",
-    "Modern Casual Fit",
+    "RGB Lighting Effects",
+    "High-Efficiency Liquid Cooling",
+    "Silent Dual Fan Design",
+    "Wide CPU Socket Compatibility",
+    "Durable Aluminum Radiator",
   ],
 }
-
 ,
   {
   id: 5,
@@ -181,7 +180,7 @@ export const products: Product[] = [
 }
 ,
   {
-  id: 7,
+  id: 11,
   name: "GP11 Shooter USB Gamepad",
   price: 75,
   image: "/gamepad.png",
@@ -210,33 +209,36 @@ export const products: Product[] = [
 ,
   {
   id: 8,
-  name: "Quilted Satin Jacket",
-  price: 220,
-  image: "/jaket.png",
+  name: "RGB Liquid CPU Cooler",
+  price: 180,
+  image: "/cpu.png",
 
   description:
-    "Stylish quilted satin jacket designed for warmth and modern fashion appeal.",
-  shortDescription: "Lightweight satin jacket with quilted design",
+    "High-performance RGB liquid CPU cooler designed for efficient heat dissipation and silent operation.",
+  shortDescription: "Advanced liquid cooling with RGB lighting",
 
-  rating: 4.7,
-  reviews: 120,
+  rating: 4.6,
+  reviews: 145,
 
-  stock: 20,
-  size: ["S", "M", "L", "XL"],
+  stock: 25,
+  size: ["240mm Radiator", "360mm Radiator"],
 
   status: "New",
 
   keySpecifications: [
-    "Premium Satin Fabric",
-    "Quilted Insulated Design",
-    "Comfortable Inner Lining",
-    "Durable Zipper Closure",
-    "Modern Casual Fit",
+    "RGB Lighting Effects",
+    "High-Efficiency Liquid Cooling",
+    "Silent Dual Fan Design",
+    "Wide CPU Socket Compatibility",
+    "Durable Aluminum Radiator",
   ],
 }
-,
+];
+
+export const productsAll: Product[] = [
+  
     {
-    id: 9,
+    id: 1,
     name: "ASUS FHD Gaming Laptop",
     price: 960,
     image: "/laptop.png",
@@ -264,7 +266,7 @@ export const products: Product[] = [
     ],
   },
   {
-  id: 10,
+  id: 2,
   name: "IPS LCD Gaming Monitor",
   price: 1160,
   image: "/monitor.png",
@@ -292,7 +294,7 @@ export const products: Product[] = [
 }
 ,
   {
-  id: 11,
+  id: 3,
   name: "HAVIT HV-G92 Gamepad",
   price: 560,
   image: "/gamepad1.png",
@@ -319,7 +321,7 @@ export const products: Product[] = [
 }
 ,
 {
-  id: 12,
+  id: 4,
   name: "AK-900 Wired Keyboard",
   price: 200,
   image: "/keyboard.png",
@@ -345,7 +347,7 @@ export const products: Product[] = [
   ],
 },
    {
-    id: 13,
+    id: 5,
     name: "ASUS FHD Gaming Laptop",
     price: 960,
     image: "/laptop.png",
@@ -373,7 +375,7 @@ export const products: Product[] = [
     ],
   },
   {
-  id: 14,
+  id: 6,
   name: "IPS LCD Gaming Monitor",
   price: 1160,
   image: "/monitor.png",
@@ -401,7 +403,7 @@ export const products: Product[] = [
 }
 ,
   {
-  id: 15,
+  id: 7,
   name: "HAVIT HV-G92 Gamepad",
   price: 560,
   image: "/gamepad1.png",
@@ -428,7 +430,7 @@ export const products: Product[] = [
 }
 ,
 {
-  id: 16,
+  id: 8,
   name: "AK-900 Wired Keyboard",
   price: 200,
   image: "/keyboard.png",

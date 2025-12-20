@@ -17,7 +17,7 @@ export default function AllProducts() {
   const processedProducts = products.slice(8, 18)
     .filter((p) => {
       if (filter === "price") return p.price <= 500;
-      if (filter === "review") return p?.rating >= 4;
+      if (filter === "review") return p.rating >= 4;
       return true;
     })
     .sort((a, b) => {
@@ -136,7 +136,7 @@ export default function AllProducts() {
                   <span
                     key={i}
                     className={`${
-  i < Math.round(product?.rating)
+  i < Math.round(product.rating)
     ? "text-orange-400"
     : "text-gray-300"
 } text-lg xl:text-xl`}

@@ -83,7 +83,7 @@ export const products: Product[] = [
   rating: 4.4,
   reviews: 98,
 
-  stock: 40,
+  
   size: ["Standard"],
 
   status: "Sale",
