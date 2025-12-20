@@ -219,11 +219,11 @@ export default function ProductDetailPage() {
               <h5 className="text-[22px] font-medium">Filter:All Stars</h5>
         </div>
       </div>
-      <div className=" lg:ml-20 xl:ml-39  max-w-2xl mx-2 xl:mx-0 ">
+      <div className=" lg:ml-30 xl:ml-39  max-w-2xl mx-2 xl:mx-0 ">
 
         <div className="mb-7">
             <div className="flex items-center mb-3">
-          <p className="text-yellow-500 text-[24px] lg:mr-170 xl:mr-226 mr-20">★★★★★</p>
+          <p className="text-yellow-500 text-[24px] xl:mr-226 mr-20">★★★★★</p>
     <p className="text-[22px] text-black">6.10.1025</p>
             </div>
           <p className="font-medium text-[22px] mb-3">Jennifer Jr. ✅</p>
@@ -231,7 +231,7 @@ export default function ProductDetailPage() {
         </div>
         <div className="mb-6">
             <div className="flex items-center mb-3">
-          <p className="text-yellow-500 text-[24px] lg:mr-170 xl:mr-226 mr-20">★★★★★</p>
+          <p className="text-yellow-500 text-[24px] xl:mr-226 mr-20">★★★★★</p>
     <p className="text-[22px] text-black">10.8.1025</p>
             </div>
           <p className="font-medium text-[22px] mb-3">Anna Lina. ✅</p>
@@ -240,11 +240,11 @@ export default function ProductDetailPage() {
       </div>
 
          <div className="xl:max-w-115.75 xl:ml-39">
-          <h3 className="text-xl lg:ml-10 mx-2 xl:mx-0 font-semibold tracking-[0.04em] text-blue-600  xl:text-[16px]">
+          <h3 className="text-xl mx-2 xl:mx-0 font-semibold tracking-[0.04em] text-blue-600  xl:text-[16px]">
            You May Also Like
           </h3>
         </div>
-        <div className="lg:w-33.5 lg:ml-10  mx-2 h-2.75 bg-[#1163CF] mt-5 xl:mb-34.75 mb-20 xl:ml-39" />
+        <div className="xl:w-33.5 mx-2 h-2.75 bg-[#1163CF] mt-5 xl:mb-34.75 mb-20 xl:ml-39" />
 
         {/* showing 4 products */}
 

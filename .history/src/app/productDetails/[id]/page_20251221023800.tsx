@@ -244,7 +244,7 @@ export default function ProductDetailPage() {
            You May Also Like
           </h3>
         </div>
-        <div className="lg:w-33.5 lg:ml-10  mx-2 h-2.75 bg-[#1163CF] mt-5 xl:mb-34.75 mb-20 xl:ml-39" />
+        <div className="llg:w-33.5 lg:ml-10  mx-2 h-2.75 bg-[#1163CF] mt-5 xl:mb-34.75 mb-20 xl:ml-39" />
 
         {/* showing 4 products */}
 

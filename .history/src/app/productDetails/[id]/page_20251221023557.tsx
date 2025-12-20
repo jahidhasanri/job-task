@@ -240,11 +240,11 @@ export default function ProductDetailPage() {
       </div>
 
          <div className="xl:max-w-115.75 xl:ml-39">
-          <h3 className="text-xl lg:ml-10 mx-2 xl:mx-0 font-semibold tracking-[0.04em] text-blue-600  xl:text-[16px]">
+          <h3 className="text-xl mx-2 xl:mx-0 font-semibold tracking-[0.04em] text-blue-600  xl:text-[16px]">
            You May Also Like
           </h3>
         </div>
-        <div className="lg:w-33.5 lg:ml-10  mx-2 h-2.75 bg-[#1163CF] mt-5 xl:mb-34.75 mb-20 xl:ml-39" />
+        <div className="xl:w-33.5 mx-2 h-2.75 bg-[#1163CF] mt-5 xl:mb-34.75 mb-20 xl:ml-39" />
 
         {/* showing 4 products */}
 

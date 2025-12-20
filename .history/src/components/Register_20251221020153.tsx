@@ -22,10 +22,10 @@ const Register = () => {
   return (
     <div className="w-75 md:w-110 xl:w-92.75 xl:h-132.5 mx-auto flex flex-col justify-center xl:ml-138.5">
       {/* Title */}
-      <h1 className="text-3xl font-bold mb-6 mt-10 xl:mt-0">
+      <h1 className="text-3xl font-bold mb-6">
         Create an account
       </h1>
-      <p className="text-sm text-muted-foreground mb-12">
+      <p className="text-sm text-muted-foreground mb-12 mt-10">
         Enter your information
       </p>
 
