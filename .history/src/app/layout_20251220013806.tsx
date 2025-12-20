@@ -36,7 +36,7 @@ export default function RootLayout({
         className={inter.className}
       >
         <Navbar></Navbar>
-        <main className="min-h-dvh"> {children}</main>
+        {children}
         <Footer></Footer>
       </body>
     </html>
