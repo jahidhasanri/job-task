@@ -16,7 +16,7 @@ const Footer = () => {
             buyers — fast, secure, and reliable shopping.
           </p>
 
-          <h3 className="text-[24px] xl:ml-26.75 font-bold  mb-3 xl:mb-6">
+          <h3 className="text-[24px] xl:ml-26.75 font-bold  mb-3 xl:mb-5">
             Check Our App on
           </h3>
 
