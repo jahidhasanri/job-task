@@ -89,7 +89,7 @@ const Footer = () => {
       <div className="border-t border-white/20 mb-10 -mt-4.5"></div>
 
       {/* Bottom Footer */}
-      <div className="text-center py-6 text-[14px] pb-7 opacity-90">
+      <div className="text-center py-6 text-[14px]  opacity-90">
         © 2025 BuyBee. All rights reserved.
       </div>
     </footer>
