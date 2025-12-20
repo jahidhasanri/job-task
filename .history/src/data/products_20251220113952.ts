@@ -7,7 +7,6 @@ export interface Product {
   rating: number;
   reviews: number;
   discountPercentage?: number;
-  status?: string;
 }
 
 export const products: Product[] = [
@@ -114,48 +113,9 @@ export const productsAll: Product[] = [
     description: "Gaming controller",
     rating: 5,
     reviews: 65,
-    status: "New",
   },
   {
     id: 4,
-    name: "AK-900 Wired Keyboard",
-    price: 200,
-    image: "/keyboard.png",
-    description: "Mechanical keyboard",
-    rating: 5,
-    reviews: 65,
-  },
-  {
-    id: 5,
-    name: "ASUS FHD Gaming Laptop",
-    price: 960,
-    image: "/laptop.png",
-    description: "Powerful gaming laptop",
-    rating: 5,
-    reviews: 65,
-    discountPercentage: 35,
-  },
-  {
-    id: 6,
-    name: "IPS LCD Gaming Monitor",
-    price: 1160,
-    image: "/monitor.png",
-    description: "High quality monitor",
-    rating: 5,
-    reviews: 65,
-  },
-  {
-    id: 7,
-    name: "HAVIT HV-G92 Gamepad",
-    price: 560,
-    image: "/gamepad1.png",
-    description: "Gaming controller",
-    rating: 5,
-    reviews: 65,
-    status: "New",
-  },
-  {
-    id: 8,
     name: "AK-900 Wired Keyboard",
     price: 200,
     image: "/keyboard.png",
