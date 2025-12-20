@@ -22,7 +22,7 @@ const HomePage = () => {
       <TopElecto></TopElecto>
       <BestSellingProducts></BestSellingProducts>
       <NewArriable></NewArriable>
-      <AllProducts></AllProducts>
+      {/* <AllProducts></AllProducts> */}
     </div>
   );
 };

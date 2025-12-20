@@ -46,11 +46,11 @@ export function TopCategory() {
   ]
 
   return (
-    <section className="mx-auto xl:max-w-315.5 lg:max-w-full xl:mt-40 px-4 xl:px-0 mt-8 ">
+    <section className="mx-auto xl:max-w-315.5 lg:max-w-full xl:mt-40 px-4 xl:px-0 mt-8 xl:mt-0">
       
       {/* ---------- Header ---------- */}
-      <div className="md:flex items-center justify-between">
-        <div className="xl:max-w-115.75 mb-6 xl:mb-0">
+      <div className="flex items-center justify-between">
+        <div className="xl:max-w-115.75">
           <h3 className="text-xl xl:text-[35px] font-semibold tracking-[0.04em]">
             Shop From{" "}
             <span className="text-blue-600 font-bold xl:text-[36px]">

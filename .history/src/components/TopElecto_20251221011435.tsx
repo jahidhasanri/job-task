@@ -33,33 +33,33 @@ const TopElecto = () => {
       </div>
        <div className="xl:w-66 h-2.75 bg-[#1163CF] mt-1 mb-19.5" />
 
-       <div className="xl:max-w-315.5 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 xl:gap-10.25 xl:ml-1.25">
+       <div className="xl:max-w-315.5 mx-auto flex flex-col xl:flex-row gap-5 xl:gap-10.25 xl:ml-1.25">
   {/* Card 1 */}
   <div
-    className="xl:w-97 h-54.25 bg-cover bg-center "
+    className="w-97 h-54.25 bg-cover bg-center "
     style={{ backgroundImage: "url('/4 1.png')" }}
   >
     <div className="text-white xl:w-46.5  xl:ml-2.75 xl:mt-14.5">
-      <h2 className="text-xl font-bold text-[#F5D51D] mt-14 ml-2 xl:mt-0 xl:ml-0 text-[24px] ">10% Off On Hp series</h2>
+      <h2 className="text-xl font-bold text-[#F5D51D] text-[24px] ">10% Off On Hp series</h2>
     </div>
   </div>
 
   {/* Card 2 */}
   <div
-    className=" bg-cover bg-center  xl:w-98 xl:h-54.25 md:flex bg-[#FFCABA]"
+    className=" bg-cover bg-center  xl:w-98 h-54.25 flex bg-[#FFCABA]"
 >
     <div className="text-white">
-      <h2 className="text-xl mt-10 mx-2 xl:mx-0 xl:text-[23px] font-bold xl:w-48.75 xl:h-26.5 xl:mt-15.75 xl:ml-4 text-[#DA1919] ">10% Off On Apple Mackbook series</h2>
+      <h2 className="text-xl xl:text-[23px] font-bold xl:w-48.75 xl:h-26.5 xl:mt-15.75 xl:ml-4 text-[#DA1919] ">10% Off On Apple Mackbook series</h2>
     </div>
     <div className=''>
-        <Image src="/3 1.png" className='h-36 md:h-50 md:-ml-2 xl:-ml-0 ml-8  xl:ml-0 xl:mt-4.25' alt=""  width={218} height={200}/>
+        <Image src="/3 1.png" className=' mt-4.25' alt=""  width={218} height={200}/>
     </div>
   </div>
 
   {/* Card 3 */}
-   <div className="md:flex  bg-[#FFE5C2] xl:w-98 xl:h-54.25  ">
+   <div className="flex  bg-[#FFE5C2] w-98 h-54.25  ">
       <div className='xl:w-42.5 xl:ml-4.25'>
-      <h2 className="text-black mt-10 mx-2 xl:mx-0 font-bold text-[23px] xl:mt-15.75 leading-tight xl:max-w-165">
+      <h2 className="text-black  font-bold text-[23px] xl:mt-15.75 leading-tight max-w-165">
         10% Off On <br /> Iphone series
       </h2>
       </div>
@@ -69,13 +69,13 @@ const TopElecto = () => {
           alt="iPhone Offer"
           width={170}
           height={250}
-          className="object-cover h-full mr-13  md:h-50  ml-8  xl:ml-0"
+          className="object-cover h-full mr-13"
         />
       </div>
 
     </div>
 </div>
-        <hr className='xl:mt-21 xl:mb-9.75 xl:w-292.5 xl:ml-1.25 mt-10 ' />
+        <hr className='xl:mt-21 xl:mb-9.75 xl:w-292.5 xl:ml-1.25' />
 
         </div>
     );

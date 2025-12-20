@@ -75,7 +75,7 @@ const TopElecto = () => {
 
     </div>
 </div>
-        <hr className='xl:mt-21 xl:mb-9.75 xl:w-292.5 xl:ml-1.25 mt-10 ' />
+        <hr className='xl:mt-21 xl:mb-9.75 xl:w-292.5 xl:ml-1.25 mt-5' />
 
         </div>
     );

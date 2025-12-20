@@ -20,9 +20,9 @@ const HomePage = () => {
 </section>
       <TopCategory></TopCategory>
       <TopElecto></TopElecto>
-      <BestSellingProducts></BestSellingProducts>
+      {/* <BestSellingProducts></BestSellingProducts>
       <NewArriable></NewArriable>
-      <AllProducts></AllProducts>
+      <AllProducts></AllProducts> */}
     </div>
   );
 };

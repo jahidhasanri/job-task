@@ -31,7 +31,7 @@ export default function AllProducts() {
     <section className="xl:max-w-327.5 mx-auto  px-4 mt-18.75">
       
       {/* Header */}
-      <div className="xl:ml-19.25 md:flex items-center justify-between mb-6">
+      <div className="xl:ml-19.25 lg:flex items-center justify-between mb-6">
         <h3 className="text-[24px] md:text-[36px] font-semibold tracking-[0.03em]">
          Explore Our Products
         </h3>

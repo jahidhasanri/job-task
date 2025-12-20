@@ -50,7 +50,7 @@ export function TopCategory() {
       
       {/* ---------- Header ---------- */}
       <div className="md:flex items-center justify-between">
-        <div className="xl:max-w-115.75 mb-6 xl:mb-0">
+        <div className="xl:max-w-115.75">
           <h3 className="text-xl xl:text-[35px] font-semibold tracking-[0.04em]">
             Shop From{" "}
             <span className="text-blue-600 font-bold xl:text-[36px]">

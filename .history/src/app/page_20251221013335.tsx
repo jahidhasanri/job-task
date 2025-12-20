@@ -21,8 +21,8 @@ const HomePage = () => {
       <TopCategory></TopCategory>
       <TopElecto></TopElecto>
       <BestSellingProducts></BestSellingProducts>
-      <NewArriable></NewArriable>
-      <AllProducts></AllProducts>
+      {/* <NewArriable></NewArriable>
+      <AllProducts></AllProducts> */}
     </div>
   );
 };

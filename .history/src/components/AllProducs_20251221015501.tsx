@@ -31,7 +31,7 @@ export default function AllProducts() {
     <section className="xl:max-w-327.5 mx-auto  px-4 mt-18.75">
       
       {/* Header */}
-      <div className="xl:ml-19.25 md:flex items-center justify-between mb-6">
+      <div className="xl:ml-19.25 lg:flex items-center justify-between mb-6">
         <h3 className="text-[24px] md:text-[36px] font-semibold tracking-[0.03em]">
          Explore Our Products
         </h3>
@@ -63,7 +63,7 @@ export default function AllProducts() {
       </div>
 
       {/* Blue underline */}
-      <div className="xl:w-70.5 xl:ml-21.25 h-2.75 bg-[#1163CF] mb-10 xl:mb-35" />
+      <div className="xl:w-70.5 xl:ml-21.25 h-2.75 bg-[#1163CF] xl:mb-35" />
 
       {/* Products Grid */}
       <div className="grid xl:grid-cols-4 md:grid-cols-2 relative gap-7.5 xl:w-292.5 mx-auto ">

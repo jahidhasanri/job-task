@@ -31,8 +31,8 @@ export default function AllProducts() {
     <section className="xl:max-w-327.5 mx-auto  px-4 mt-18.75">
       
       {/* Header */}
-      <div className="xl:ml-19.25 md:flex items-center justify-between mb-6">
-        <h3 className="text-[24px] md:text-[36px] font-semibold tracking-[0.03em]">
+      <div className="xl:ml-19.25 lg:flex items-center justify-between mb-6">
+        <h3 className="text-[25px] md:text-[36px] font-semibold tracking-[0.03em]">
          Explore Our Products
         </h3>
 
@@ -42,7 +42,7 @@ export default function AllProducts() {
           <CiFilter className="text-xl text-gray-600" />
   <select
     onChange={(e) => setFilter(e.target.value as any)}
-    className=" rounded text-sm xl:w-30 border h-10"
+    className=" rounded text-sm xl:w-30 border xl:h-10"
   >
     <option value="" className="font-medium">Filter</option>
     <option value="price">Price ≤ $500</option>
@@ -52,7 +52,7 @@ export default function AllProducts() {
           {/* Sort */}
           <select
             onChange={(e) => setSort(e.target.value as any)}
-            className="px-3 w-30 py-2 rounded text-sm xl:w-30 xl:mr-14 xl:ml-40 h-10 border"
+            className="px-3 py-2 rounded text-sm xl:w-30 xl:mr-14 xl:ml-40 xl:h-10 border"
           >
             <option value="" className="font-medium">Sort</option>
             <option value="asc">Price (Low → High)</option>
@@ -63,7 +63,7 @@ export default function AllProducts() {
       </div>
 
       {/* Blue underline */}
-      <div className="xl:w-70.5 xl:ml-21.25 h-2.75 bg-[#1163CF] mb-10 xl:mb-35" />
+      <div className="xl:w-70.5 xl:ml-21.25 h-2.75 bg-[#1163CF] mb-35" />
 
       {/* Products Grid */}
       <div className="grid xl:grid-cols-4 md:grid-cols-2 relative gap-7.5 xl:w-292.5 mx-auto ">

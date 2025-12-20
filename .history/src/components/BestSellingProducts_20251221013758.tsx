@@ -8,7 +8,7 @@ export default function BestSellingProducts() {
   const [showAll, setShowAll] = useState(false);
   const displayedProducts = products.slice(0, 8)
   return (
-    <div className="mx-2 lg:mx-20 mt-8 xl:mt-0 xl:max-w-292.5 xl:mx-auto xl:pb-15.5">
+    <div className="mx-2 mt-8 xl:mt-0 xl:max-w-292.5 lg:mx-auto xl:pb-15.5">
       {/* Best Selling Products */}
          <div className="md:flex items-center justify-between  mb-1.5">
         <div className="xl:max-w-100 ">
@@ -23,7 +23,7 @@ export default function BestSellingProducts() {
       </div>
 
 
-        <div className=" xl:max-w-99 h-2.75 bg-[#1163CF] mb-5  xl:mb-35.25" />
+        <div className="xl:max-w-99 h-2.75 bg-[#1163CF] mb-5  xl:mb-35.25" />
 
       <div className="grid xl:grid-cols-4 md:grid-cols-2 gap-7.5">
   {(showAll ? displayedProducts : displayedProducts.slice(0, 4)).map((product) => (

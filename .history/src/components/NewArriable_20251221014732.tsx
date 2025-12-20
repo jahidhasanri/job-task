@@ -59,7 +59,7 @@ const NewArriable = () => {
 
 </div>
 
-<div className='h-60 md:h-80 lg:h-100 xl:w-289.25 xl:h-144.5 xl:ml-6.5 border mt-7 mx-2 xl:mx-0'>
+<div className='h-60 md:h-50 xl:w-289.25 xl:h-144.5 xl:ml-6.5 border mt-7 mx-2 xl:mx-0'>
 <Image
       src="/n4 1.png"
       alt=""

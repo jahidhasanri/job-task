@@ -23,7 +23,7 @@ export default function BestSellingProducts() {
       </div>
 
 
-        <div className=" xl:max-w-99 h-2.75 bg-[#1163CF] mb-5  xl:mb-35.25" />
+        <div className="xl:max-w-99 h-2.75 bg-[#1163CF] mb-5  xl:mb-35.25" />
 
       <div className="grid xl:grid-cols-4 md:grid-cols-2 gap-7.5">
   {(showAll ? displayedProducts : displayedProducts.slice(0, 4)).map((product) => (

@@ -31,12 +31,12 @@ const NewArriable = () => {
           </Button>
         </div>
       </div>
-       <div className="xl:w-57 h-2.75 bg-[#1163CF] mt-9 mb-13 ml-2 mr-2 xl:mr-0" />
+       <div className="xl:w-57 h-2.75 bg-[#1163CF] mt-9 mb-13 ml-2" />
 
-         <div className="lg:flex  gap-7.5 xl:max-w-286 xl:h-161.75 xl:ml-6.5 mx-2 xl:mx-0 ">
+         <div className="flex  gap-7.5 xl:max-w-286 xl:h-161.75 ml-6.5 mr-2 ">
   
   {/* Left Image */}
-  <div className=" xl:w-165.5  h-full overflow-hidden flex items-center justify-center mb-6 xl:mb-0">
+  <div className=" xl:w-165.5  h-full overflow-hidden flex items-center justify-center">
     <Image
       src="/n3 1.png"
       alt=""
@@ -59,7 +59,7 @@ const NewArriable = () => {
 
 </div>
 
-<div className='h-60 md:h-80 lg:h-100 xl:w-289.25 xl:h-144.5 xl:ml-6.5 border mt-7 mx-2 xl:mx-0'>
+<div className='xl:w-289.25 xl:h-144.5 ml-6.5 border mt-7'>
 <Image
       src="/n4 1.png"
       alt=""
