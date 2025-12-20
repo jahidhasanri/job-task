@@ -160,7 +160,7 @@ export default function ProductDetailPage() {
             </button>
 
             <button className="w-39 h-11 bg-[#0F59B9] text-white rounded xl:mr-8">
-              <Link href="/card">Add To Cart</Link>
+              Add To Cart
             </button>
 
             <button className="w-10 h-10 border rounded">

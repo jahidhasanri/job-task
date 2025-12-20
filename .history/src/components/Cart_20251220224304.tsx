@@ -151,7 +151,7 @@ export default function Cart() {
           </div>
 
           <button className="w-full bg-blue-600 text-white py-3 rounded">
-           <Link href='/checkOut'> Proceeds to checkout</Link>
+            Proceeds to checkout
           </button>
         </div>
       </div>

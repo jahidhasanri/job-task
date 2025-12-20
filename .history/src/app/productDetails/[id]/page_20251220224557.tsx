@@ -159,9 +159,9 @@ export default function ProductDetailPage() {
               Buy Now
             </button>
 
-            <button className="w-39 h-11 bg-[#0F59B9] text-white rounded xl:mr-8">
-              <Link href="/card">Add To Cart</Link>
-            </button>
+            <Link href="/cart" className="w-39 h-11 mx-auto bg-[#0F59B9] text-white rounded xl:mr-8">
+              Add To Cart
+            </Link>
 
             <button className="w-10 h-10 border rounded">
               ♡
