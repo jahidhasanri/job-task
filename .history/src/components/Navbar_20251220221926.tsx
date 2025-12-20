@@ -70,7 +70,7 @@ const Navbar = () => {
         </Link>
 
         {/* Cart */}
-        <Link href="/card" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
+        <Link href="cart" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
           <ShoppingCart className="h-5 w-5 cursor-pointer" />
           <span className="text-[12px] mt-3">Cart</span>
         </Link>

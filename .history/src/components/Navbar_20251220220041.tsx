@@ -22,10 +22,9 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="w-full ">
-  {/* Top Bar */}
-  <div className="bg-[#0F59B9]">
-  <div className="max-w-360 mx-auto text-white text-xs md:text-sm max-h-15 overflow-hidden">
+    <header className="w-full bg-[#0F59B9]">
+      <div className="max-w-360 mx-auto">
+      <div className=" text-white text-xs md:text-sm max-h-15 overflow-hidden">
     <div className="mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-2 md:px-2 xl:px-0 ">
       {/* Email */}
       <p className="text-[16px] xl:w-68.75 flex items-center justify-center gap-1 py-3 text-center  xl:ml-21.5">
@@ -41,13 +40,10 @@ const Navbar = () => {
       </div>
     </div>
   </div>
-  </div>
 
-
-
-    <div className="max-w-360 mx-auto">
-        <div className="border-b bg-white">
-        <div className="flex flex-wrap xl:flex-nowrap items-center justify-between gap-3 pt-5.75 pb-6 px-4 xl:px-0">
+  {/* Main Navbar */}
+  <div className="border-b bg-white">
+    <div className="flex flex-wrap xl:flex-nowrap items-center justify-between gap-3 pt-5.75 pb-6 px-4 xl:px-0">
       {/* Left Logo */}
       <div className="flex items-center xl:w-29.5 xl:ml-17.25 xl:mr-14.5">
         <Link href="/" className="text-2xl font-bold text-blue-600">
@@ -70,7 +66,7 @@ const Navbar = () => {
         </Link>
 
         {/* Cart */}
-        <Link href="/card" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
+        <Link href="#" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
           <ShoppingCart className="h-5 w-5 cursor-pointer" />
           <span className="text-[12px] mt-3">Cart</span>
         </Link>
@@ -95,7 +91,9 @@ const Navbar = () => {
       </div>
     </div>
   </div>
-<div className="border-b bg-white mx-auto">
+
+  {/* Bottom Menu */}
+  <div className="border-b bg-white mx-auto">
     <div className="flex flex-col md:flex-row items-start md:gap-7 lg:gap-12 xl:gap-0 md:items-center text-sm font-medium">
       <div className="lg:w-auto w-full md:max-w-54.75 lg:max-w-65 flex justify-center lg:justify-start xl:max-w-74.75  xl:mr-12 mb-2 lg:mb-0">
         <button className="bg-blue-600 hover:bg-blue-700 flex items-center gap-6 pl-7 pr-15 py-4 text-white w-full lg:w-auto justify-center">
@@ -116,7 +114,8 @@ const Navbar = () => {
     </div>
   </div>
 
- {menuOpen && (
+  {/* Mobile Menu */}
+  {menuOpen && (
     <div className="lg:hidden px-4 pb-4 text-sm">
       <Button className="mb-3 w-full bg-blue-600">All Categories</Button>
 
@@ -133,10 +132,9 @@ const Navbar = () => {
       </nav>
     </div>
   )}
-
-    </div>
+      </div>
+  {/* Top Bar */}
   
- 
 </header>
 
   )
