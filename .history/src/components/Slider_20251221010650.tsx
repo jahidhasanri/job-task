@@ -72,7 +72,7 @@ export function Slider() {
         alt="slide image"
         width={550}
         height={700}
-        className="w-48 sm:w-64 md:w-80 lg:w-96 xl:w-137.5 xl:mt-15 h-full object-contain"
+        className="w-48 sm:w-64 md:w-80 lg:w-96 xl:w-137.5 xl:mt-20 h-full object-contain"
       />
     </div>
 

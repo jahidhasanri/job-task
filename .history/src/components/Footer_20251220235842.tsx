@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="  grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1">
 
         {/* Brand Info */}
-        <div className="mt-6 ml-2 mr-2 xl:mt-0 xl:ml-0 xl:mr-0">
+        <div className="mt-6 ml-2 xl:mt-0 xl:ml-0">
           <h2 className="text-[24px]  font-bold xl:mt-20 xl:ml-33.75 xl:mb-21.25 xl:w-29.5 h-6 mb-5 ">BuyBee</h2>
           <p className="text-[14px]  xl:w-71.25 leading-relaxed opacity-90 xl:ml-26.75 mb-5 xl:mb-5.5 ">
             BuyBee is your one-stop destination for all electronics, fashion,
@@ -20,7 +20,7 @@ const Footer = () => {
             Check Our App on
           </h3>
 
-          <div className="flex gap-3 xl:ml-26.75 mt-5 mb-8 xl:mb-0">
+          <div className="flex gap-3 xl:ml-26.75 mt-5 mb-4 xl:mb-0">
             <Image
               src="/Frame 888.png"
               alt="Google Play"
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="xl:w-63.75 xl:h-38.5  xl:mt-31.5 xl:ml-29.25 ml-2 md:mt-8  xl:mb-0">
+        <div className="xl:w-63.75 xl:h-38.5  xl:mt-31.5 xl:ml-29.25">
           <h3 className="text-[20px] font-semibold mb-5">Quick Links</h3>
           <ul className="ml-3 text-[14px] opacity-90">
             <li className="hover:underline cursor-pointer">Home</li>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
 
         {/* Customer Support */}
-        <div className="xl:w-66 xl:mt-29.75 ml-2 mt-8 xl:mb-0">
+        <div className="xl:w-66 xl:mt-29.75 xl:ml-2">
           <h3 className="text-[20px] font-semibold mb-5">
             Customer Support
           </h3>
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/* Contact */}
-        <div className="xl:w-73.25 xl:mt-29 ml-2 xl:ml-0  mt-10 ">
+        <div className="xl:w-73.25 xl:mt-29 ">
           <h3 className="text-[20px] font-semibold mb-5">
             Contact & Follow Us
           </h3>
@@ -86,7 +86,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-white/20 xl:mb-10 xl:-mt-4.5 mt-5"></div>
+      <div className="border-t border-white/20 mb-10 -mt-4.5"></div>
 
       {/* Bottom Footer */}
       <div className="text-center py-6 text-[14px] pb-7 opacity-90">

@@ -13,9 +13,9 @@ const HomePage = () => {
   return (
     <div>
       <section className="mx-auto max-w-360 xl:px-0 ">
-<div className="flex flex-col lg:flex-row gap-7.25">
+<div className="flex flex-col md:flex-row gap-7.25">
 <CategorySidebar></CategorySidebar>
-       <Slider></Slider> 
+      <Slider></Slider>
 </div>
 </section>
       {/* <TopCategory></TopCategory>

@@ -45,25 +45,17 @@ export function Slider() {
                   h-100 sm:h-112.5 md:h-120 px-4 md:px-8 lg:px-16 py-6 md:py-8">
 
     {/* LEFT CONTENT */}
-   <div className="w-full md:w-1/2 flex flex-col space-y-4 md:space-y-6 items-center md:items-start px-4 md:px-0">
-  {/* Heading */}
-  <div className="w-full md:max-w-md lg:max-w-lg xl:max-w-[650px]">
-    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#ff36bc] text-center md:text-left leading-snug md:leading-tight tracking-wide">
-      {slide.title}
-    </h2>
-  </div>
-
-  {/* Description */}
-  <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white text-center md:text-left max-w-md">
-    {slide.desc}
-  </p>
-
-  {/* Button */}
-  <button className="mt-2 md:mt-4 rounded-full bg-[#210af5] text-white font-semibold px-6 py-2 sm:px-8 sm:py-3 md:px-6 md:py-2 lg:px-8 lg:py-3">
-    Shop Now
-  </button>
-</div>
-
+    <div className="flex flex-col md:w-1/2 order-1 md:order-1 items-center md:items-start justify-center space-y-3 md:space-y-5">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl xl:tracking-[0.04rem] leading-4 font-bold text-[#ff36bc] text-center md:text-left leading-snug md:leading-tight">
+        {slide.title}
+      </h2>
+      <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white text-center md:text-left max-w-md">
+        {slide.desc}
+      </p>
+      <button className="mt-2 md:mt-4 rounded-full bg-[#210af5] text-white font-semibold px-6 py-2 sm:px-8 sm:py-3 md:px-6 md:py-2 lg:px-8 lg:py-3">
+        Shop Now
+      </button>
+    </div>
 
     {/* RIGHT IMAGE */}
     <div className="md:w-1/2 flex justify-center md:justify-end order-2 md:order-2 mt-6 md:mt-0 h-full">
@@ -72,7 +64,7 @@ export function Slider() {
         alt="slide image"
         width={550}
         height={700}
-        className="w-48 sm:w-64 md:w-80 lg:w-96 xl:w-137.5 xl:mt-15 h-full object-contain"
+        className="w-48 sm:w-64 md:w-80 lg:w-96 xl:w-137.5 h-full object-contain"
       />
     </div>
 

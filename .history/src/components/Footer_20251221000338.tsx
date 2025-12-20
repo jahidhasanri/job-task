@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="xl:w-63.75 xl:h-38.5  xl:mt-31.5 xl:ml-29.25 ml-2 md:mt-8  xl:mb-0">
+        <div className="xl:w-63.75 xl:h-38.5  xl:mt-31.5 xl:ml-29.25 ml-2 md:mt-10 xl:mb-0">
           <h3 className="text-[20px] font-semibold mb-5">Quick Links</h3>
           <ul className="ml-3 text-[14px] opacity-90">
             <li className="hover:underline cursor-pointer">Home</li>

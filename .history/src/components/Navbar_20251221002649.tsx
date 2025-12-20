@@ -117,32 +117,29 @@ const Navbar = () => {
   </div>
 
  {menuOpen && (
-  <div className="lg:hidden px-4 pb-4 text-sm bg-white">
-    <Button className="mb-3 w-full bg-blue-600">All Categories</Button>
+    <div className="lg:hidden px-4 pb-4 text-sm">
+      <Button className="mb-3 w-full bg-blue-600">All Categories</Button>
 
-    <nav className="flex flex-col gap-4">
-      <Link href="/">Home</Link>
-      <Link href="/contact">Contact</Link>
-      <Link href="/products">Products</Link>
-      <Link href="/offers" className="text-pink-500">Hot Offers</Link>
-      <Link href="/combo" className="text-purple-500">Combo</Link>
-      <Link href="/clearance" className="text-pink-600">Clearance</Link>
+      <nav className="flex flex-col gap-3">
+        <Link href="/">Home</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="/products">Products</Link>
+        <Link href="/offers" className="text-pink-500">Hot Offers</Link>
+        <Link href="/combo" className="text-purple-500">Combo</Link>
+        <Link href="/clearance" className="text-pink-600">Clearance</Link>
+        <Link href="login" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
+          <User className="h-8 w-8" />
+          <span className="text-[12px] text-red-50 mt-3">Sign In</span>
+        </Link>
 
-      {/* Sign In (Mobile) */}
-      <Link href="/login" className="flex items-center gap-2">
-        <User className="h-5 w-5" />
-        <span>Sign In</span>
-      </Link>
-
-      {/* Cart (Mobile) */}
-      <Link href="/card" className="flex items-center gap-2">
-        <ShoppingCart className="h-5 w-5" />
-        <span>Cart</span>
-      </Link>
-    </nav>
-  </div>
-)}
-
+        {/* Cart */}
+        <Link href="/card" className="hidden lg:flex items-center gap-1 text-sm xl:mr-5">
+          <ShoppingCart className="h-5 w-5 cursor-pointer" />
+          <span className="text-[12px] mt-3">Cart</span>
+        </Link>
+      </nav>
+    </div>
+  )}
 
     </div>
   

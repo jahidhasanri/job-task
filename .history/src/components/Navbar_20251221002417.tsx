@@ -95,7 +95,7 @@ const Navbar = () => {
       </div>
     </div>
   </div>
-<div className="border-b hidden md:block bg-white mx-auto">
+<div className="border-b hidden md:none bg-white mx-auto">
     <div className="flex flex-col md:flex-row items-start md:gap-7 lg:gap-12 xl:gap-0 md:items-center text-sm font-medium">
       <div className="lg:w-auto w-full md:max-w-54.75 lg:max-w-65 flex justify-center lg:justify-start xl:max-w-74.75  xl:mr-12 mb-2 lg:mb-0">
         <button className="bg-blue-600 hover:bg-blue-700 flex items-center gap-6 pl-7 pr-15 py-4 text-white w-full lg:w-auto justify-center">
@@ -117,32 +117,22 @@ const Navbar = () => {
   </div>
 
  {menuOpen && (
-  <div className="lg:hidden px-4 pb-4 text-sm bg-white">
-    <Button className="mb-3 w-full bg-blue-600">All Categories</Button>
+    <div className="lg:hidden px-4 pb-4 text-sm">
+      <Button className="mb-3 w-full bg-blue-600">All Categories</Button>
 
-    <nav className="flex flex-col gap-4">
-      <Link href="/">Home</Link>
-      <Link href="/contact">Contact</Link>
-      <Link href="/products">Products</Link>
-      <Link href="/offers" className="text-pink-500">Hot Offers</Link>
-      <Link href="/combo" className="text-purple-500">Combo</Link>
-      <Link href="/clearance" className="text-pink-600">Clearance</Link>
-
-      {/* Sign In (Mobile) */}
-      <Link href="/login" className="flex items-center gap-2">
-        <User className="h-5 w-5" />
-        <span>Sign In</span>
-      </Link>
-
-      {/* Cart (Mobile) */}
-      <Link href="/card" className="flex items-center gap-2">
-        <ShoppingCart className="h-5 w-5" />
-        <span>Cart</span>
-      </Link>
-    </nav>
-  </div>
-)}
-
+      <nav className="flex flex-col gap-3">
+        <Link href="/">Home</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="/products">Products</Link>
+        <Link href="/offers" className="text-pink-500">Hot Offers</Link>
+        <Link href="/combo" className="text-purple-500">Combo</Link>
+        <Link href="/clearance" className="text-pink-600">Clearance</Link>
+        <Link href="#" className="flex items-center gap-2">
+          <User className="h-4 w-4" /> Sign In
+        </Link>
+      </nav>
+    </div>
+  )}
 
     </div>
   

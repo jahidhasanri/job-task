@@ -128,9 +128,9 @@ const CheckOut = () => {
           </div>
 
           {/* Coupon */}
-          <div className="mt-5  sm:mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="mt-5 sm:mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4">
             <input
-              className="border p-3 w-full xl:w-100 xl:ml-4"
+              className="border p-3 w-full xl:w-[300px]"
               placeholder="Coupon Code"
             />
             <button className="bg-blue-600 text-white px-6 py-3 w-full sm:w-auto">

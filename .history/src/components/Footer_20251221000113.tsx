@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="xl:w-63.75 xl:h-38.5  xl:mt-31.5 xl:ml-29.25 ml-2 md:mt-8  xl:mb-0">
+        <div className="xl:w-63.75 xl:h-38.5  xl:mt-31.5 xl:ml-29.25 ml-2 xl:mb-0">
           <h3 className="text-[20px] font-semibold mb-5">Quick Links</h3>
           <ul className="ml-3 text-[14px] opacity-90">
             <li className="hover:underline cursor-pointer">Home</li>
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/* Contact */}
-        <div className="xl:w-73.25 xl:mt-29 ml-2 xl:ml-0  mt-10 ">
+        <div className="xl:w-73.25 xl:mt-29 ml-2 xl:ml-0 ">
           <h3 className="text-[20px] font-semibold mb-5">
             Contact & Follow Us
           </h3>
@@ -86,7 +86,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-white/20 xl:mb-10 xl:-mt-4.5 mt-5"></div>
+      <div className="border-t border-white/20 mb-10 -mt-4.5"></div>
 
       {/* Bottom Footer */}
       <div className="text-center py-6 text-[14px] pb-7 opacity-90">
