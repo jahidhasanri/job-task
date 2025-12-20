@@ -156,7 +156,7 @@ export default function ProductDetailPage() {
           {/* Action Buttons */}
           <div className="flex  mb-8 xl:ml-61.25 mx-3 lg:mx-5 xl:mx-0">
             <button className="w-39 h-11 bg-[#0F59B9] text-white rounded mr-6">
-              <Link href="/checkOut">Buy Now</Link>
+              Buy Now
             </button>
 
             <button className="w-39 h-11 bg-[#0F59B9] text-white rounded mr-8">
